@@ -38,7 +38,7 @@ function VerificaMaiorMenor(numero){
     return numero > maiorValor || numero < menorValor
 
 }
-documento.body.addEventListener('click', e =>{
+document.body.addEventListener('click', e =>{
     if(e.target.id == 'jogar-novamente'){
         window.location.reload();
     }
